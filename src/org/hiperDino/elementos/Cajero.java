@@ -33,11 +33,5 @@ public class Cajero {
     System.out.println(filaClientes);
   }
 
-  @Override
-  public String toString() {
-    return "* Numero de caja: "+ id +"\n"+
-    "* Total Clientes: "+ contadorClientes +"\n"+
-    "* Clientes en la fila: "+ "\n" + filaClientes;
-  }
 
 }
